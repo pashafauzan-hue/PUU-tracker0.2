@@ -1,0 +1,431 @@
+{
+  "last_updated": "2026-06-12T03:00:00",
+  "agenda": {
+    "172/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Pemeriksaan Pendahuluan (I)",
+      "tgl_terakhir": "06-03-2026",
+      "agenda_selanjutnya": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "261/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli/Saksi Presiden (VII)",
+      "tgl_terakhir": "05-11-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "94/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "04-01-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "143/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan DPR dan Presiden (III)",
+      "tgl_terakhir": "06-09-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon serta Keterangan Tambahan DPR dan Presiden (IV)",
+      "tgl_selanjutnya": "23-06-2026"
+    },
+    "197/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli yang dihadirkan Mahkamah (X)",
+      "tgl_terakhir": "26/05/2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "238/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli yang dihadirkan Mahkamah (X)",
+      "tgl_terakhir": "26/05/2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "157/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "20-05-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "260/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Saksi Pemohon serta Ahli dan Saksi Presiden (VII)",
+      "tgl_terakhir": "28-04-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "17-06-2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "18-05-2026",
+      "agenda_selanjutnya": "Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "146/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "18-05-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "63/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Pihak Terkait Kepolisian Negara Republik Indonesia (V)",
+      "tgl_terakhir": "03-06-2026",
+      "agenda_selanjutnya": "Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "193/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Pemeriksaan Pendahuluan (I)",
+      "tgl_terakhir": "11-06-2026",
+      "agenda_selanjutnya": "Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "155/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "20-05-2026",
+      "agenda_selanjutnya": "Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "275/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
+      "tgl_terakhir": "09-06-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "280/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
+      "tgl_terakhir": "09-06-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "282/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
+      "tgl_terakhir": "09-06-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "27/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
+      "tgl_terakhir": "09-06-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "29/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
+      "tgl_terakhir": "09-06-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "148/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "18-05-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "166/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Pemeriksaan Pendahuluan (I)",
+      "tgl_terakhir": "20-05-2026",
+      "agenda_selanjutnya": "Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "2/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi DPR (VI)",
+      "tgl_terakhir": "21-05-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "31/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi DPR (VI)",
+      "tgl_terakhir": "21-05-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "62/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Presiden (IV)",
+      "tgl_terakhir": "10-06-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Pihak Terkait Mahkamah Agung, Kepolisian, Kejaksaan, dan KPK (V)",
+      "tgl_selanjutnya": "24-06-2026"
+    },
+    "69/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Presiden (IV)",
+      "tgl_terakhir": "10-06-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Pihak Terkait Mahkamah Agung, Kepolisian, Kejaksaan, dan KPK (V)",
+      "tgl_selanjutnya": "24-06-2026"
+    },
+    "89/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Presiden (IV)",
+      "tgl_terakhir": "10-06-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Pihak Terkait Mahkamah Agung, Kepolisian, Kejaksaan, dan KPK (V)",
+      "tgl_selanjutnya": "24-06-2026"
+    },
+    "92/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Presiden (IV)",
+      "tgl_terakhir": "10-06-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Pihak Terkait Mahkamah Agung, Kepolisian, Kejaksaan, dan KPK (V)",
+      "tgl_selanjutnya": "24-06-2026"
+    },
+    "104/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Presiden (IV)",
+      "tgl_terakhir": "10-06-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Pihak Terkait Mahkamah Agung, Kepolisian, Kejaksaan, dan KPK (V)",
+      "tgl_selanjutnya": "24-06-2026"
+    },
+    "150/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "19-05-2026",
+      "agenda_selanjutnya": "Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "158/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "25-05-2026",
+      "agenda_selanjutnya": "Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "176/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Pemeriksaan Pendahuluan (I)",
+      "tgl_terakhir": "08-06-2026",
+      "agenda_selanjutnya": "Pengajuan Permohonan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "26/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
+      "tgl_terakhir": "06-09-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "170/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Pemeriksaan Pendahuluan (I)",
+      "tgl_terakhir": "03-06-2026",
+      "agenda_selanjutnya": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "189/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli DPR dan Ahli Presiden (IX)",
+      "tgl_terakhir": "24-02-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "139/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "11-05-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "180/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli Presiden (IX)",
+      "tgl_terakhir": "05-03-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "168/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "03-06-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "147/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "18-05-2026",
+      "agenda_selanjutnya": "Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "151/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan DPR dan Presiden (III)",
+      "tgl_terakhir": "11-06-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "139/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli/Saksi Presiden (IX)",
+      "tgl_terakhir": "15-12-2025",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "164/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli/Saksi Presiden (IX)",
+      "tgl_terakhir": "15-12-2025",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "160/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan Saksi Presiden (IX)",
+      "tgl_terakhir": "01-12-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "202/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan Saksi Presiden (VI)",
+      "tgl_terakhir": "01-12-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "184/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan Saksi Presiden (VII)",
+      "tgl_terakhir": "01-12-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "100/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan Saksi Presiden (VIII)",
+      "tgl_terakhir": "20-10-2025",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "112/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan DPR, Komnas HAM, dan Komnas Anti Kekerasan terhadap Perempuan (VIII)",
+      "tgl_terakhir": "10-07-2025",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "168/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan Saksi Presiden (VII)",
+      "tgl_terakhir": "02-04-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "213/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden untuk Permohonan 213/PUU-XXIII/2025 (IX)",
+      "tgl_terakhir": "06-08-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi DPR (X)",
+      "tgl_selanjutnya": "18-06-2026"
+    },
+    "138/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "05-11-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "272/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Pihak Terkait Melbourne Bergerak, Serikat Dosen dan Karyawan Universitas Proklamasi 45 Yogyakarta, Asosiasi Dosen Indonesia (ADI), dan Perkumpulan Pendidik Progresif Indonesia untuk Permohonan 272/PUU-XXIII/2025 (VII)",
+      "tgl_terakhir": "25-05-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 272/PUU-XXIII/2025 (VIII)",
+      "tgl_selanjutnya": "22-06-2026"
+    },
+    "24/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Pihak Terkait Melbourne Bergerak, Serikat Dosen dan Karyawan Universitas Proklamasi 45 Yogyakarta, Asosiasi Dosen Indonesia (ADI), dan Perkumpulan Pendidik Progresif Indonesia untuk Permohonan 272/PUU-XXIII/2025 (VI)",
+      "tgl_terakhir": "25-05-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 272/PUU-XXIII/2025 (VII)",
+      "tgl_selanjutnya": "22-06-2026"
+    },
+    "64/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan DPR dan Presiden (IV)",
+      "tgl_terakhir": "19-05-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon serta Ahli dan/atau Saksi Presiden (V)",
+      "tgl_selanjutnya": "15-06-2026"
+    },
+    "181/PUU-XXIII/2025": {
+      "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 208.181/PUU/PAN.MK/SPts/05/2026",
+      "tgl_terakhir": "25-05-2026",
+      "agenda_selanjutnya": "Penyerahan Salinan Putusan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "14/PUU-XXIV/2026": {
+      "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 205.14/PUU/PAN.MK/SPts/05/2026",
+      "tgl_terakhir": "25-05-2026",
+      "agenda_selanjutnya": "Penyerahan Salinan Putusan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "85/PUU-XXIV/2026": {
+      "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 204.85/PUU/PAN.MK/SPts/05/2026",
+      "tgl_terakhir": "25-05-2026",
+      "agenda_selanjutnya": "Penyerahan Salinan Putusan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "149/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "19-05-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "173/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Pemeriksaan Pendahuluan (I)",
+      "tgl_terakhir": "06-04-2026",
+      "agenda_selanjutnya": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "203/PUU-XXIII/2025": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden untuk Permohonan 213/PUU-XXIII/2025 (IX)",
+      "tgl_terakhir": "06-08-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi DPR (X)",
+      "tgl_selanjutnya": "18-06-2026"
+    },
+    "132/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "05-05-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "121/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "22-04-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "25/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VI)",
+      "tgl_terakhir": "20-05-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "40/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi  Pemohon 40/PUU-XXIV/2026 (VI)",
+      "tgl_terakhir": "20-05-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 52/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 55/PUU-XXIV/2026 (VII)",
+      "tgl_selanjutnya": "15-06-2026"
+    },
+    "52/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi  Pemohon 40/PUU-XXIV/2026 (VI)",
+      "tgl_terakhir": "20-05-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 52/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 55/PUU-XXIV/2026 (VII)",
+      "tgl_selanjutnya": "15-06-2026"
+    },
+    "55/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi  Pemohon 40/PUU-XXIV/2026 (VI)",
+      "tgl_terakhir": "20-05-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 52/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 55/PUU-XXIV/2026 (VII)",
+      "tgl_selanjutnya": "15-06-2026"
+    },
+    "100/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "15-04-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "142/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "05-12-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "171/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Pemeriksaan Pendahuluan (I)",
+      "tgl_terakhir": "06-03-2026",
+      "agenda_selanjutnya": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_selanjutnya": "17-06-2026"
+    },
+    "160/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "25-05-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "86/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Pihak Terkait Badan Perlindungan Konsumen Nasional (BPKN), Yayasan Lembaga Konsumen Indonesia (YLKI), dan Asosiasi E-Commerce Indonesia (idEA) (V)",
+      "tgl_terakhir": "06-08-2026",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 86/PUU-XXIV/2026 dan Pemohon 123/PUU-XXIV/2026, serta Keterangan Tambahan Pihak Terkait Yayasan Lembaga Konsumen Indonesia (YLKI), Badan Perlindungan Konsumen Nasional (BPKN), dan Asosiasi E-commerce Indonesia (IdEA) (VI)",
+      "tgl_selanjutnya": "22-06-2026"
+    },
+    "68/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "10-03-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "34/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli/Saksi Presiden (VI)",
+      "tgl_terakhir": "13-05-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    },
+    "153/PUU-XXIV/2026": {
+      "agenda_terakhir": "Acara Sidang : Perbaikan Permohonan (II)",
+      "tgl_terakhir": "20-05-2026",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
+    }
+  }
+}
