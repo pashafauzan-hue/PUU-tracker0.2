@@ -2444,7 +2444,7 @@ const FALLBACK_DATA = [
 // ============================================================
 const SUPABASE_URL      = 'https://aafdfwpmyvipfgmjpxun.supabase.co/';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFhZmRmd3BteXZpcGZnbWpweHVuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE0Mjc5NjcsImV4cCI6MjA5NzAwMzk2N30.EfD2P69KVWhdySDCmQWf_Y7-Goenw8yAyt88xF7LIbQ';
-const ADMIN_PASSWORD    = 'mk2026admin'; // ganti password ini!
+const ADMIN_PASSWORD    = '20202020'; // ganti password ini!
 // ============================================================
 
 const KLUSTERS=['Lintas','Polkam','Ekopol','MDG'];
@@ -2533,14 +2533,14 @@ function getAllData(){return DATA;}
 function sp(){try{localStorage.setItem('mk_pins',JSON.stringify([...pins]));}catch(e){}}
 function dd(s){
   if(!s||s==='Belum dijadwalkan')return null;
-  const p=s.trim().replace(/\/g,'-').split('-');
+  const p=s.trim().replace(/\//g,'-').split('-');
   if(p.length!==3)return null;
   const d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
   return isNaN(d.getTime())?null:Math.round((d-TODAY)/86400000);
 }
 function fd(s){
   if(!s||s==='Belum dijadwalkan')return'Belum dijadwalkan';
-  const p=s.trim().replace(/\/g,'-').split('-');
+  const p=s.trim().replace(/\//g,'-').split('-');
   if(p.length!==3)return s;
   const M=['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Ags','Sep','Okt','Nov','Des'];
   return parseInt(p[0])+' '+M[parseInt(p[1])-1]+' '+p[2];
