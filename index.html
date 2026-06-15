@@ -2529,6 +2529,29 @@ function renderAll(){
 
 function getAllData(){return DATA;}
 
+// ── HELPERS ──
+function sp(){try{localStorage.setItem('mk_pins',JSON.stringify([...pins]));}catch(e){}}
+function dd(s){
+  if(!s||s==='Belum dijadwalkan')return null;
+  const p=s.trim().replace(/\/g,'-').split('-');
+  if(p.length!==3)return null;
+  const d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
+  return isNaN(d.getTime())?null:Math.round((d-TODAY)/86400000);
+}
+function fd(s){
+  if(!s||s==='Belum dijadwalkan')return'Belum dijadwalkan';
+  const p=s.trim().replace(/\/g,'-').split('-');
+  if(p.length!==3)return s;
+  const M=['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Ags','Sep','Okt','Nov','Des'];
+  return parseInt(p[0])+' '+M[parseInt(p[1])-1]+' '+p[2];
+}
+function escHtml(s){
+  if(!s)return'';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function shortAgenda(s){return s?(s.replace(/Acara Sidang\s*:\s*/i,'').trim()):''}
+
+
 // ── TAHAPAN & BADGES ──
 const TP_LABEL={pendahuluan:'Pemeriksaan Pendahuluan',persidangan:'Pemeriksaan Persidangan',
   mendengar:'Mendengar Keterangan',putusan:'Menuju Putusan',lainnya:'Lainnya'};
