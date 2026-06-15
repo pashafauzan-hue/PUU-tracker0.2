@@ -55,9 +55,10 @@ def sb_headers():
     }
 
 def sb_get_submissions():
+    """Baca SEMUA perkara di Supabase (komunitas + edited original)."""
     if not SUPABASE_URL or not SUPABASE_KEY:
         return []
-    url = f"{SUPABASE_URL}/rest/v1/perkara_submissions?select=id,nomor_perkara,link_tracker"
+    url = f"{SUPABASE_URL}/rest/v1/perkara_submissions?select=id,nomor_perkara,link_tracker,is_original"
     req = urllib.request.Request(url, headers=sb_headers())
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
@@ -195,7 +196,8 @@ def jalankan_scraper():
         for sub in submissions:
             nomor = sub.get("nomor_perkara","")
             link  = sub.get("link_tracker","") or None
-            print(f"[KOMUNITAS] Scraping: {nomor}")
+            tag   = "[ASLI-EDIT]" if sub.get("is_original") else "[KOMUNITAS]"
+            print(f"{tag} Scraping: {nomor}")
             page = context.new_page()
             hasil = scrape_satu(page, nomor, custom_url=link)
             page.close()

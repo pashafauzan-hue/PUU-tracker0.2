@@ -48,6 +48,9 @@ a{color:var(--blue);text-decoration:none}
 .hdr-sub{font-size:11.5px;color:var(--text3);margin-top:1px}
 .hdr-chips{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
 .chip{font-size:11px;color:var(--text3);background:var(--card);border:1px solid var(--bd2);padding:4px 10px;border-radius:20px;display:flex;align-items:center;gap:5px;white-space:nowrap}
+.scrape-chip{cursor:pointer;color:var(--blue-dk);border-color:var(--blue);background:var(--blue-bg);font-weight:600;transition:opacity .12s}
+.scrape-chip:hover{opacity:.82}
+.scrape-chip:disabled{opacity:.5;cursor:not-allowed}
 .chip i{font-size:12px}
 .chip b{color:var(--text2)}
 
@@ -305,6 +308,9 @@ a{color:var(--blue);text-decoration:none}
     <div class="hdr-chips">
       <div class="chip"><i class="ti ti-database"></i>Data: <b>12 Jun 2026</b></div>
       <div class="chip"><i class="ti ti-refresh" style="color:var(--green)"></i>Agenda: <b id="ag-upd-txt">&ndash;</b></div>
+      <button id="scrape-btn" class="chip scrape-chip" onclick="triggerScrape()" title="Trigger scrape mingguan sekarang (perlu password admin)">
+        <i class="ti ti-robot"></i>Trigger Scrape
+      </button>
     </div>
   </div>
 
@@ -423,6 +429,7 @@ a{color:var(--blue);text-decoration:none}
         <label class="form-lbl">Nama / Institusi <span style="font-weight:400;color:var(--text3)">(opsional)</span></label>
         <input id="f-by" class="form-input" placeholder="Siapa yang menginput perkara ini?">
       </div>
+      <input type="hidden" id="f-is-orig" value="false">
     </div>
     <div class="modal-ftr">
       <button class="btn-cancel" onclick="closeModal()">Batal</button>
@@ -435,7 +442,7 @@ a{color:var(--blue);text-decoration:none}
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script>
-const DATA = [
+const FALLBACK_DATA = [
   {
     "id": "172/PUU-XXIV/2026",
     "kluster": "Lintas",
@@ -2435,8 +2442,8 @@ const DATA = [
 // ============================================================
 // KONFIGURASI — EDIT 3 BARIS INI
 // ============================================================
-const SUPABASE_URL      = 'YOUR_SUPABASE_URL_HERE';
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY_HERE';
+const SUPABASE_URL      = 'https://aafdfwpmyvipfgmjpxun.supabase.co/';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFhZmRmd3BteXZpcGZnbWpweHVuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE0Mjc5NjcsImV4cCI6MjA5NzAwMzk2N30.EfD2P69KVWhdySDCmQWf_Y7-Goenw8yAyt88xF7LIbQ';
 const ADMIN_PASSWORD    = 'mk2026admin'; // ganti password ini!
 // ============================================================
 
@@ -2451,9 +2458,9 @@ let openCard=null, openTab={};
 let pins=new Set();
 try{pins=new Set(JSON.parse(localStorage.getItem('mk_pins')||'[]'));}catch(e){}
 let curPg='main';
-let SUBMITTED=[];
+let DATA=[];
 let _sb=null;
-let pasalCount=0;
+let pasalIndex=0;
 
 // ── SUPABASE INIT ──
 function initSB(){
@@ -2462,13 +2469,33 @@ function initSB(){
   catch(e){console.error('Supabase init error:',e);return false;}
 }
 
-async function loadSubmitted(){
-  if(!_sb)return;
-  const{data,error}=await _sb.from('perkara_submissions').select('*').order('created_at',{ascending:false});
-  if(error){console.error('Load error:',error);return;}
-  SUBMITTED=(data||[]).map(rowToCard);
-  renderMain();updBadges();
-  if(curPg==='agenda')renderAgenda();
+// ── LOAD ALL DATA ──
+async function loadAll(){
+  DATA=FALLBACK_DATA.map(d=>({...d}));
+  if(!_sb){renderAll();return;}
+  try{
+    const{data:rows,error}=await _sb.from('perkara_submissions').select('*').order('created_at',{ascending:true});
+    if(error)throw error;
+    if(rows&&rows.length){
+      const sbMap={};
+      rows.forEach(r=>{if(!sbMap[r.nomor_perkara]||r.is_original)sbMap[r.nomor_perkara]=r;});
+      DATA=DATA.map(d=>{
+        if(sbMap[d.id]){
+          const merged=rowToCard(sbMap[d.id]);
+          delete sbMap[d.id];
+          return merged;
+        }
+        return d;
+      });
+      Object.values(sbMap).forEach(r=>{
+        if(!r.is_original)DATA.push(rowToCard(r));
+      });
+    }
+  }catch(e){
+    console.error('Supabase load error:',e);
+    showToast('Gagal memuat data terbaru dari Supabase.',true);
+  }
+  renderAll();
 }
 
 function rowToCard(row){
@@ -2483,36 +2510,25 @@ function rowToCard(row){
     kluster:row.kluster||'Lintas',uu:row.uu,
     pemohon:row.pemohon||'',batu_uji:row.batu_uji||'',
     agendaLast:row.agenda_terakhir||'',tglLast:row.tgl_terakhir||'',
-    agendaNext:row.agenda_selanjutnya||'',tglNext:(row.tgl_selanjutnya&&row.tgl_selanjutnya!=='Belum dijadwalkan')?row.tgl_selanjutnya:'',
+    agendaNext:row.agenda_selanjutnya||'',
+    tglNext:(row.tgl_selanjutnya&&row.tgl_selanjutnya!=='Belum dijadwalkan')?row.tgl_selanjutnya:'',
     linkTracker:row.link_tracker||'',
-    isSubmitted:true,submittedBy:row.submitted_by||'',
+    isSubmitted:!row.is_original,isOriginal:!!row.is_original,
+    submittedBy:row.submitted_by||'',
     scrapeStatus:row.agenda_terakhir?'done':'pending',
     ops:ops
   };
 }
 
-// ── HELPERS ──
-function sp(){try{localStorage.setItem('mk_pins',JSON.stringify([...pins]));}catch(e){}}
-function dd(s){
-  if(!s||s==='Belum dijadwalkan')return null;
-  const p=s.trim().replace(/\//g,'-').split('-');
-  if(p.length!==3)return null;
-  const d=new Date(parseInt(p[2]),parseInt(p[1])-1,parseInt(p[0]));
-  return isNaN(d.getTime())?null:Math.round((d-TODAY)/86400000);
+function renderAll(){
+  buildKpills('kpills',AK,'toggleK');
+  buildKpills('ag-kpills',AK_AG,'toggleKAg');
+  renderAlerts();renderStats();renderMain();updBadges();
+  if(curPg==='agenda')renderAgenda();
+  if(curPg==='pinned')renderPinned();
 }
-function fd(s){
-  if(!s||s==='Belum dijadwalkan')return'Belum dijadwalkan';
-  const p=s.trim().replace(/\//g,'-').split('-');
-  if(p.length!==3)return s;
-  const M=['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Ags','Sep','Okt','Nov','Des'];
-  return parseInt(p[0])+' '+M[parseInt(p[1])-1]+' '+p[2];
-}
-function escHtml(s){
-  if(!s)return'';
-  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-function shortAgenda(s){return s?(s.replace(/Acara Sidang\s*:\s*/i,'').trim()):''}
-function getAllData(){return[...DATA,...SUBMITTED];}
+
+function getAllData(){return DATA;}
 
 // ── TAHAPAN & BADGES ──
 const TP_LABEL={pendahuluan:'Pemeriksaan Pendahuluan',persidangan:'Pemeriksaan Persidangan',
@@ -2681,8 +2697,8 @@ function ccard(c){
   }
 
   const trackerUrl=c.linkTracker||'https://tracking.mkri.id/index.php?page=web.TrackPerkara&id='+encodeURIComponent(c.id);
-  const editBtn=c.isSubmitted?'<button class="edit-btn" onclick="openEditModal(event,\''+escHtml(c.supabaseId)+'\')"><i class="ti ti-edit" style="font-size:12px"></i>Edit</button>':'';
-  const delBtn=c.isSubmitted?'<button class="del-btn" onclick="deleteSub(event,\''+escHtml(c.supabaseId)+'\')"><i class="ti ti-trash" style="font-size:12px"></i>Hapus</button>':'';
+  const editBtn='<button class="edit-btn" onclick="openEditModal(event,'+(c.supabaseId?'\''+escHtml(c.supabaseId)+'\',null':'null,\''+escHtml(c.id)+'\'')+')"><i class="ti ti-edit" style="font-size:12px"></i>Edit</button>';
+  const delBtn=c.supabaseId?'<button class="del-btn" onclick="deleteSub(event,\''+escHtml(c.supabaseId)+'\')"><i class="ti ti-trash" style="font-size:12px"></i>Hapus</button>':'';
 
   return'<div class="cc'+(isO?' open':'')+(isPin?' pin-me':'')+(c.isSubmitted?' submitted-card':'')+'" id="cc-'+uid+'">'+
     '<div class="cc-hdr" onclick="tog(\''+uidE+'\')" title="'+escHtml(c.uu)+'">'+
@@ -2825,15 +2841,17 @@ function openModal(){
   resetForm();
 }
 
-function openEditModal(e,sbId){
+async function openEditModal(e,sbId,nomorPerkara){
   e.stopPropagation();
   const pass=prompt('Masukkan password admin untuk mengedit perkara ini:');
   if(!pass)return;
   if(pass!==ADMIN_PASSWORD){showToast('Password salah.',true);return;}
-  const c=SUBMITTED.find(x=>x.supabaseId===sbId);
+  // Find in DATA (works for both original and community perkara)
+  const c=sbId?DATA.find(x=>x.supabaseId===sbId):DATA.find(x=>x.id===nomorPerkara);
   if(!c){showToast('Perkara tidak ditemukan.',true);return;}
-  editingId=sbId;
+  editingId=sbId||null; // null for original perkara not yet in Supabase
   document.getElementById('modal-title-txt').textContent='Edit Perkara';
+  document.getElementById('f-is-orig').value=c.isOriginal?'true':'false';
   document.getElementById('submit-btn').innerHTML='<i class="ti ti-device-floppy"></i> Simpan Perubahan';
   document.getElementById('modal').classList.remove('hidden');
   // isi form dengan data existing
@@ -2867,6 +2885,7 @@ function resetForm(){
     const el=document.getElementById(id);if(el)el.value='';
   });
   document.getElementById('f-kluster').value='Lintas';
+  if(document.getElementById('f-is-orig'))document.getElementById('f-is-orig').value='false';
   document.getElementById('pasal-list').innerHTML='';
   pasalIndex=0;
   addPasalRow();
@@ -2936,12 +2955,17 @@ async function submitNewPerkara(){
 
   let error;
   if(editingId){
-    // UPDATE
+    // UPDATE existing record
     const res=await _sb.from('perkara_submissions').update(payload).eq('id',editingId);
     error=res.error;
+  } else if(document.getElementById('f-is-orig')&&document.getElementById('f-is-orig').value==='true'){
+    // Original perkara — upsert by nomor_perkara
+    const res=await _sb.from('perkara_submissions')
+      .upsert([{...payload,is_original:true}],{onConflict:'nomor_perkara,is_original'});
+    error=res.error;
   } else {
-    // INSERT
-    const res=await _sb.from('perkara_submissions').insert([payload]);
+    // New community perkara
+    const res=await _sb.from('perkara_submissions').insert([{...payload,is_original:false}]);
     error=res.error;
   }
 
@@ -2953,6 +2977,49 @@ async function submitNewPerkara(){
   closeModal();
   await loadSubmitted();
   showToast(wasEdit?'Perubahan berhasil disimpan!':'Perkara berhasil ditambahkan dan tampil untuk semua!');
+}
+
+// ── TRIGGER SCRAPE ──
+async function triggerScrape(){
+  const pass=prompt('Password admin untuk trigger scrape:');
+  if(!pass)return;
+  if(pass!==ADMIN_PASSWORD){showToast('Password salah.',true);return;}
+  if(!_sb){showToast('Supabase tidak tersambung.',true);return;}
+
+  const btn=document.getElementById('scrape-btn');
+  btn.disabled=true;
+  btn.innerHTML='<i class="ti ti-loader"></i> Memproses...';
+
+  try{
+    const{data:cfg}=await _sb.from('config').select('key,value');
+    const get=k=>(cfg||[]).find(r=>r.key===k)?.value||'';
+    const pat=get('github_pat'),owner=get('github_owner'),repo=get('github_repo');
+
+    if(!pat||!owner||!repo){
+      showToast('Konfigurasi GitHub belum lengkap di tabel config Supabase. Isi github_pat, github_owner, github_repo.',true);
+      btn.disabled=false;btn.innerHTML='<i class="ti ti-robot"></i>Trigger Scrape';
+      return;
+    }
+
+    const resp=await fetch(
+      'https://api.github.com/repos/'+owner+'/'+repo+'/actions/workflows/scrape.yml/dispatches',
+      {method:'POST',
+       headers:{'Authorization':'Bearer '+pat,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
+       body:JSON.stringify({ref:'main'})}
+    );
+
+    if(resp.ok||resp.status===204){
+      showToast('Scraper berhasil di-trigger! Jadwal akan diperbarui dalam ~15 menit.');
+    } else {
+      const txt=await resp.text().catch(()=>'');
+      showToast('Gagal trigger ('+resp.status+'): '+txt.slice(0,80),true);
+    }
+  }catch(e){
+    showToast('Error: '+e.message,true);
+  }
+
+  btn.disabled=false;
+  btn.innerHTML='<i class="ti ti-robot"></i>Trigger Scrape';
 }
 
 // ── TOAST ──
@@ -2968,10 +3035,7 @@ function showToast(msg,isErr){
 document.addEventListener('DOMContentLoaded',function(){
   const sbReady=initSB();
   renderSBNotice();
-  buildKpills('kpills',AK,'toggleK');
-  buildKpills('ag-kpills',AK_AG,'toggleKAg');
-  renderAlerts();renderStats();renderMain();updBadges();
-  if(sbReady)loadSubmitted();
+  loadAll(); // loads from Supabase (merge) or FALLBACK_DATA
 
   // Load fresh agenda from data-agenda.json
   fetch('data-agenda.json').then(r=>r.json()).then(d=>{
