@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-12T22:49:42",
+  "last_updated": "2026-07-19T21:07:10",
   "agenda": {
     "172/PUU-XXIV/2026": {
-      "agenda_terakhir": "",
-      "tgl_terakhir": "",
-      "agenda_selanjutnya": "Belum Terjadwal",
+      "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 259.172/PUU/PAN.MK/SPts/06/2026",
+      "tgl_terakhir": "29-06-2026",
+      "agenda_selanjutnya": "Penyerahan Salinan Putusan",
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "261/PUU-XXIII/2025": {
@@ -20,10 +20,10 @@
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "143/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VI)",
-      "tgl_terakhir": "07-07-2026 13:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengan Keterangan Ahli dan/atau Saksi Presiden (VII)",
-      "tgl_selanjutnya": "13-07-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengan Keterangan Ahli dan/atau Saksi Presiden (VII)",
+      "tgl_terakhir": "13-07-2026 13:30 WIB",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "197/PUU-XXIII/2025": {
       "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli yang dihadirkan Mahkamah (X)",
@@ -134,34 +134,34 @@
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "62/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Pihak Terkait Kejaksaan RI untuk Permohonan 89/PUU-XXIV/2026 dan 92/PUU-XXIV/2026, Serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VII)",
-      "tgl_terakhir": "08-07-2026 10:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Tambahan Pihak Terkait Mahkamah Agung, Kepolisian RI, Kejaksaan RI, KPK untuk Permohonan 62, 69, 89, 92, dan 104/PUU-XXIV/2026, dan Pihak Terkait DPN Peradi Profesional untuk Permohonan 104/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VIII)",
-      "tgl_selanjutnya": "15-07-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Tambahan Pihak Terkait Mahkamah Agung, Kepolisian RI, Kejaksaan RI, KPK untuk Permohonan 62, 69, 89, 92, dan 104/PUU-XXIV/2026, dan Pihak Terkait DPN Peradi Profesional untuk Permohonan 104/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VIII)",
+      "tgl_terakhir": "15-07-2026 13:30 WIB",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 104/PUU-XXIV/2026 (IX)",
+      "tgl_selanjutnya": "22-07-2026 13:30 WIB"
     },
     "69/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Pihak Terkait Kejaksaan RI untuk Permohonan 89/PUU-XXIV/2026 dan 92/PUU-XXIV/2026, Serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VII)",
-      "tgl_terakhir": "08-07-2026 10:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Tambahan Pihak Terkait Mahkamah Agung, Kepolisian RI, Kejaksaan RI, KPK untuk Permohonan 62, 69, 89, 92, dan 104/PUU-XXIV/2026, dan Pihak Terkait DPN Peradi Profesional untuk Permohonan 104/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VIII)",
-      "tgl_selanjutnya": "15-07-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Tambahan Pihak Terkait Mahkamah Agung, Kepolisian RI, Kejaksaan RI, KPK untuk Permohonan 62, 69, 89, 92, dan 104/PUU-XXIV/2026, dan Pihak Terkait DPN Peradi Profesional untuk Permohonan 104/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VIII)",
+      "tgl_terakhir": "15-07-2026 13:30 WIB",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 104/PUU-XXIV/2026 (IX)",
+      "tgl_selanjutnya": "22-07-2026 13:30 WIB"
     },
     "89/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Pihak Terkait Kejaksaan RI untuk Permohonan 89/PUU-XXIV/2026 dan 92/PUU-XXIV/2026, Serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VII)",
-      "tgl_terakhir": "08-07-2026 10:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Tambahan Pihak Terkait Mahkamah Agung, Kepolisian RI, Kejaksaan RI, KPK untuk Permohonan 62, 69, 89, 92, dan 104/PUU-XXIV/2026, dan Pihak Terkait DPN Peradi Profesional untuk Permohonan 104/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VIII)",
-      "tgl_selanjutnya": "15-07-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Tambahan Pihak Terkait Mahkamah Agung, Kepolisian RI, Kejaksaan RI, KPK untuk Permohonan 62, 69, 89, 92, dan 104/PUU-XXIV/2026, dan Pihak Terkait DPN Peradi Profesional untuk Permohonan 104/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VIII)",
+      "tgl_terakhir": "15-07-2026 13:30 WIB",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 104/PUU-XXIV/2026 (IX)",
+      "tgl_selanjutnya": "22-07-2026 13:30 WIB"
     },
     "92/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Pihak Terkait Kejaksaan RI untuk Permohonan 89/PUU-XXIV/2026 dan 92/PUU-XXIV/2026, Serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VII)",
-      "tgl_terakhir": "08-07-2026 10:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Tambahan Pihak Terkait Mahkamah Agung, Kepolisian RI, Kejaksaan RI, KPK untuk Permohonan 62, 69, 89, 92, dan 104/PUU-XXIV/2026, dan Pihak Terkait DPN Peradi Profesional untuk Permohonan 104/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VIII)",
-      "tgl_selanjutnya": "15-07-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Tambahan Pihak Terkait Mahkamah Agung, Kepolisian RI, Kejaksaan RI, KPK untuk Permohonan 62, 69, 89, 92, dan 104/PUU-XXIV/2026, dan Pihak Terkait DPN Peradi Profesional untuk Permohonan 104/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VIII)",
+      "tgl_terakhir": "15-07-2026 13:30 WIB",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 104/PUU-XXIV/2026 (IX)",
+      "tgl_selanjutnya": "22-07-2026 13:30 WIB"
     },
     "104/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Pihak Terkait Kejaksaan RI untuk Permohonan 89/PUU-XXIV/2026 dan 92/PUU-XXIV/2026, Serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VII)",
-      "tgl_terakhir": "08-07-2026 10:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Tambahan Pihak Terkait Mahkamah Agung, Kepolisian RI, Kejaksaan RI, KPK untuk Permohonan 62, 69, 89, 92, dan 104/PUU-XXIV/2026, dan Pihak Terkait DPN Peradi Profesional untuk Permohonan 104/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VIII)",
-      "tgl_selanjutnya": "15-07-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Tambahan Pihak Terkait Mahkamah Agung, Kepolisian RI, Kejaksaan RI, KPK untuk Permohonan 62, 69, 89, 92, dan 104/PUU-XXIV/2026, dan Pihak Terkait DPN Peradi Profesional untuk Permohonan 104/PUU-XXIV/2026 serta Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 69/PUU-XXIV/2026 (VIII)",
+      "tgl_terakhir": "15-07-2026 13:30 WIB",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 104/PUU-XXIV/2026 (IX)",
+      "tgl_selanjutnya": "22-07-2026 13:30 WIB"
     },
     "150/PUU-XXIV/2026": {
       "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 217.150/PUU/PAN.MK/SPts/06/2026",
@@ -242,21 +242,21 @@
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "160/PUU-XXIII/2025": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan Saksi Presiden (IX)",
-      "tgl_terakhir": "12-01-2026 13:30 WIB",
-      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 273.160/PUU/PAN.MK/SPts/07/2026",
+      "tgl_terakhir": "17-07-2026",
+      "agenda_selanjutnya": "Penyerahan Salinan Putusan",
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "202/PUU-XXIII/2025": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan Saksi Presiden (VI)",
-      "tgl_terakhir": "12-01-2026 13:30 WIB",
-      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 281.202/PUU/PAN.MK/SPts/07/2026",
+      "tgl_terakhir": "17-07-2026",
+      "agenda_selanjutnya": "Penyerahan Salinan Putusan",
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "184/PUU-XXIII/2025": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan Saksi Presiden (VII)",
-      "tgl_terakhir": "12-01-2026 10:30 WIB",
-      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 278.184/PUU/PAN.MK/SPts/07/2026",
+      "tgl_terakhir": "17-07-2026",
+      "agenda_selanjutnya": "Penyerahan Salinan Putusan",
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "100/PUU-XXIII/2025": {
@@ -290,16 +290,16 @@
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "272/PUU-XXIII/2025": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 24/PUU-XXIV/2026 (X)",
-      "tgl_terakhir": "06-07-2026 13:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (XI)",
-      "tgl_selanjutnya": "14-07-2026 10:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (XI)",
+      "tgl_terakhir": "14-07-2026 10:30 WIB",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Pemberi Keterangan Universitas Indonesia, Universitas Gadjah Mada, Universitas Airlangga, Universitas Andalas, Universitas Hasanuddin (XII)",
+      "tgl_selanjutnya": "21-07-2026 13:30 WIB"
     },
     "24/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 24/PUU-XXIV/2026 (IX)",
-      "tgl_terakhir": "06-07-2026 13:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (X)",
-      "tgl_selanjutnya": "14-07-2026 10:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (X)",
+      "tgl_terakhir": "14-07-2026 10:30 WIB",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Pemberi Keterangan Universitas Indonesia, Universitas Gadjah Mada, Universitas Airlangga, Universitas Andalas, Universitas Hasanuddin (XI)",
+      "tgl_selanjutnya": "21-07-2026 13:30 WIB"
     },
     "64/PUU-XXIV/2026": {
       "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon serta Ahli dan/atau Saksi Presiden (VI)",
@@ -392,10 +392,10 @@
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "171/PUU-XXIV/2026": {
-      "agenda_terakhir": "Agenda Sidang : Pemeriksaan Pendahuluan II Acara Sidang : Perbaikan Permohonan (II)",
-      "tgl_terakhir": "17-06-2026 13:00 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan DPR dan Presiden (III)",
-      "tgl_selanjutnya": "14-07-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan DPR dan Presiden (III)",
+      "tgl_terakhir": "14-07-2026 13:30 WIB",
+      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Presiden serta Keterangan Ahli dan/atau Saksi Pemohon (IV)",
+      "tgl_selanjutnya": "21-07-2026 10:30 WIB"
     },
     "160/PUU-XXIV/2026": {
       "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 212.160/PUU/PAN.MK/SPts/06/2026",
