@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T21:07:48",
+  "last_updated": "2026-08-09T20:44:23",
   "agenda": {
     "172/PUU-XXIV/2026": {
       "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 259.172/PUU/PAN.MK/SPts/06/2026",
@@ -82,14 +82,14 @@
     "275/PUU-XXIII/2025": {
       "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
       "tgl_terakhir": "09-06-2026 10:30 WIB",
-      "agenda_selanjutnya": "Pemeriksaan Persidangan",
-      "tgl_selanjutnya": "Belum dijadwalkan"
+      "agenda_selanjutnya": "Pengucapan Putusan Acara Sidang : Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "12-08-2026 14:00 WIB"
     },
     "280/PUU-XXIII/2025": {
       "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
       "tgl_terakhir": "09-06-2026 10:30 WIB",
-      "agenda_selanjutnya": "Pemeriksaan Persidangan",
-      "tgl_selanjutnya": "Belum dijadwalkan"
+      "agenda_selanjutnya": "Pengucapan Putusan Acara Sidang : Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "12-08-2026 14:00 WIB"
     },
     "282/PUU-XXIII/2025": {
       "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
@@ -100,8 +100,8 @@
     "27/PUU-XXIV/2026": {
       "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
       "tgl_terakhir": "09-06-2026 10:30 WIB",
-      "agenda_selanjutnya": "Pemeriksaan Persidangan",
-      "tgl_selanjutnya": "Belum dijadwalkan"
+      "agenda_selanjutnya": "Pengucapan Putusan Acara Sidang : Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "12-08-2026 14:00 WIB"
     },
     "29/PUU-XXIV/2026": {
       "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
@@ -134,34 +134,34 @@
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "62/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 104/PUU-XXIV/2026 (IX)",
-      "tgl_terakhir": "22-07-2026 13:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 89/PUU-XXIV/2026 serta Ahli dan/atau Saksi Presiden (X)",
-      "tgl_selanjutnya": "03-08-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 89/PUU-XXIV/2026 serta Ahli dan/atau Saksi Presiden (X)",
+      "tgl_terakhir": "03-08-2026 13:30 WIB",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "69/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 104/PUU-XXIV/2026 (IX)",
-      "tgl_terakhir": "22-07-2026 13:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 89/PUU-XXIV/2026 serta Ahli dan/atau Saksi Presiden (X)",
-      "tgl_selanjutnya": "03-08-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 89/PUU-XXIV/2026 serta Ahli dan/atau Saksi Presiden (X)",
+      "tgl_terakhir": "03-08-2026 13:30 WIB",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "89/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 104/PUU-XXIV/2026 (IX)",
-      "tgl_terakhir": "22-07-2026 13:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 89/PUU-XXIV/2026 serta Ahli dan/atau Saksi Presiden (X)",
-      "tgl_selanjutnya": "03-08-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 89/PUU-XXIV/2026 serta Ahli dan/atau Saksi Presiden (X)",
+      "tgl_terakhir": "03-08-2026 13:30 WIB",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "92/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 104/PUU-XXIV/2026 (IX)",
-      "tgl_terakhir": "22-07-2026 13:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 89/PUU-XXIV/2026 serta Ahli dan/atau Saksi Presiden (X)",
-      "tgl_selanjutnya": "03-08-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 89/PUU-XXIV/2026 serta Ahli dan/atau Saksi Presiden (X)",
+      "tgl_terakhir": "03-08-2026 13:30 WIB",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "104/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 62/PUU-XXIV/2026 dan 104/PUU-XXIV/2026 (IX)",
-      "tgl_terakhir": "22-07-2026 13:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 89/PUU-XXIV/2026 serta Ahli dan/atau Saksi Presiden (X)",
-      "tgl_selanjutnya": "03-08-2026 13:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon 89/PUU-XXIV/2026 serta Ahli dan/atau Saksi Presiden (X)",
+      "tgl_terakhir": "03-08-2026 13:30 WIB",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "150/PUU-XXIV/2026": {
       "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 217.150/PUU/PAN.MK/SPts/06/2026",
@@ -184,8 +184,8 @@
     "26/PUU-XXIV/2026": {
       "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VII)",
       "tgl_terakhir": "09-06-2026 10:30 WIB",
-      "agenda_selanjutnya": "Pemeriksaan Persidangan",
-      "tgl_selanjutnya": "Belum dijadwalkan"
+      "agenda_selanjutnya": "Pengucapan Putusan Acara Sidang : Pengucapan Putusan/Ketetapan",
+      "tgl_selanjutnya": "12-08-2026 14:00 WIB"
     },
     "170/PUU-XXIV/2026": {
       "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 250.170/PUU/PAN.MK/SPts/06/2026",
@@ -392,10 +392,10 @@
       "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "171/PUU-XXIV/2026": {
-      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Pemohon (V)",
-      "tgl_terakhir": "28-07-2026 13:30 WIB",
-      "agenda_selanjutnya": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VI)",
-      "tgl_selanjutnya": "06-08-2026 10:30 WIB"
+      "agenda_terakhir": "Acara Sidang : Mendengar Keterangan Ahli dan/atau Saksi Presiden (VI)",
+      "tgl_terakhir": "06-08-2026 10:30 WIB",
+      "agenda_selanjutnya": "Pemeriksaan Persidangan",
+      "tgl_selanjutnya": "Belum dijadwalkan"
     },
     "160/PUU-XXIV/2026": {
       "agenda_terakhir": "Telah diterbitkan salinan Putusan dengan nomor 212.160/PUU/PAN.MK/SPts/06/2026",
